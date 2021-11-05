@@ -2,6 +2,10 @@
 
 Base template for creating ReScript React projects 
 
+Compiled .bs.js files are in `lib/es6/src` instead of in `src/`
+
+To change this, change `package-specs.in-source` to true inside `bsconfig.json`
+
 ## Workflow
 
 #### Development
