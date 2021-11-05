@@ -1,0 +1,23 @@
+{
+  "name": "rescript-react-starter",
+  "version": "1.0.0",
+  "description": "Base template for ReScript React projects.",
+  "scripts": {
+    "start": "rescript build -w",
+    "dev:rescript": "rescript build -w",
+    "dev:serve": "snowpack dev",
+    "dev": "concurrently --kill-others \"rescript build -w\" \"snowpack dev\"",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rescript": "^9.1.4"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "snowpack": "^3.8.8"
+  },
+  "license": "ISC"
+}
