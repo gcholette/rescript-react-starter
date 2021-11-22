@@ -16,7 +16,7 @@
     "rescript": "^9.1.4"
   },
   "devDependencies": {
-    "concurrently": "^6.3.0",
+    "concurrently": "^6.4.0",
     "snowpack": "^3.8.8"
   },
   "license": "ISC"
